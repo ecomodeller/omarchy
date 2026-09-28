@@ -107,3 +107,8 @@
 .titlebar-button.mod-close {
   display: none !important;
 }
+
+/* Give the tab strip back the space Obsidian reserves for those buttons */
+.mod-linux {
+  --frame-right-space: 0px;
+}
